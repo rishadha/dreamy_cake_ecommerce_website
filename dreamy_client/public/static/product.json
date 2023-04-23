@@ -1,0 +1,1216 @@
+[
+    {
+        "title": "Birthday Cake",
+        "slug": "ribbon cake with butter icing",
+        "moreLove": true,
+        "id": "1",
+        "price": 3200,
+        "oldPrice": 4500,
+        "desc": " its a birthday cake with ribbon cake and better icing. ",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-1.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-1.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-1.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-1.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-1.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "dreamy cake",
+        "color": "white",
+        "brand": "dreamy cake",
+        "category": "Birthday cake",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 14,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 1500,
+        "tags": "broccoli",
+        "sizes": "s",
+        "stock": 0,
+        "review": 10,
+        "rating": 3,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Black-forest Cake",
+        "slug": "balck forest with whipping cream",
+        "moreLove": true,
+        "id": "2",
+        "price": 7800,
+        "desc": "its black forest cake with whipping cream and 1Kg cake with cherry.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-2.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-2.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-2.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-2.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-2.jpg"
+            }
+        ],
+        "condition": "refurbished",
+        "vendor": "Dreamy cake",
+        "color": "blue",
+        "brand": "dreamy cake",
+        "category": "Black-forest cake",
+        "featured": true,
+        "trending": false,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-6.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": false
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 1500,
+        "tags": "broccoli",
+        "sizes": "s",
+        "review": 10,
+        "rating": 4,
+        "ratingScore": 90,
+        "created": "2021-02-03T06:48:07"
+    },
+    {
+        "title": "Red velvet Cake",
+        "slug": "Red velvet cake with cheese foresting and cherry.",
+        "moreLove": true,
+        "id": "3",
+        "price": 7500,
+        "desc": "Red velvet cake with cheese foresting and cherry.This is a baked dessert with a deep red color and a moist texture. It is typically covered with a creamy and slightly tangy topping that complements the sweetness of the cake. As a final touch, it may be adorned with small, red cherry fruit on top.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-3.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-3.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-3.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-3.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-3.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "Dreamy Cake",
+        "color": "red",
+        "brand": "dreamy cake",
+        "category": "Red-Velvet Cake",
+        "featured": true,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-7.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": false
+        },
+        "variations": [
+            "red",
+            "Blue",
+            "white",
+            "orange",
+            "green"
+        ],
+        "weight": 1500,
+        "tags": "fruit",
+        "sizes": "s",
+        "review": 10,
+        "rating": 5,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Chocolate Cake",
+        "slug": "Chocolate cake with chocolate icing",
+        "moreLove": true,
+        "id": "4",
+        "price": 2500,
+        "desc": "Chocolate cake with chocolate icing.This dessert is a classic indulgence for chocolate lovers. The cake itself is rich and moist, with a deep chocolate flavor that is sure to satisfy any sweet tooth. On top of the cake is a decadent layer of chocolate icing, which is smooth, creamy, and has a slightly bittersweet taste that balances out the sweetness of the cake. Together, the cake and icing create a harmonious and delicious chocolate experience.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-4.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-4.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-4.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-4.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-4.jpg"
+            }
+        ],
+        "condition": "used",
+        "vendor": "Dreamy Cake",
+        "color": "brown",
+        "brand": "dreamy cake",
+        "category": "Chocolate Cake",
+        "featured": true,
+        "trending": false,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-6.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "Brown"
+
+        ],
+        "weight": 1500,
+        "tags": "salad",
+        "sizes": "s",
+        "review": 10,
+        "rating": 4,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Wedding Cake",
+        "slug": "Wedding cake",
+        "moreLove": true,
+        "id": "5",
+        "price": 11000,
+        "desc": "A wedding cake is a special dessert designed to celebrate the union of two individuals on their wedding day. It is typically a multi-layered cake that is elegantly decorated with intricate details, such as intricate piping, delicate flowers, or ornate designs made from fondant or icing. The cake layers may be flavored with a variety of options, including classic vanilla, chocolate, or fruit flavors, and may also incorporate other ingredients such as nuts, berries, or liqueurs. A wedding cake is a centerpiece of the reception and is often displayed on a grand table or stand for all guests to admire before being served as a delicious and memorable dessert.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-5.jpeg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-5.jpeg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-5.jpeg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-5.jpeg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-5.jpeg"
+            }
+        ],
+        "condition": "refurbished",
+        "vendor": "Dreamy cake",
+        "color": "red",
+        "brand": "dreamy cake",
+        "category": "Wedding Cake",
+        "featured": true,
+        "trending": false,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": false
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 2500,
+        "tags": "fruit",
+        "sizes": "s",
+        "review": 10,
+        "rating": 5,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Teacher's Day Cake",
+        "slug": "Teacher's Day Cake",
+        "moreLove": true,
+        "id": "6",
+        "price": 4500,
+        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-6.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-6.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-6.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-6.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-6.jpg"
+            }
+        ],
+        "condition": "refurbished",
+        "vendor": "Dreamy Cake",
+        "color": "green",
+        "brand": "dreamy cake",
+        "category": "Teacher's Day Cake",
+        "featured": true,
+        "trending": false,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": false
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 2500,
+        "tags": "salad",
+        "sizes": "s",
+        "review": 10,
+        "rating": 3,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Festival Cake",
+        "slug": "Festival cake",
+        "moreLove": true,
+        "id": "7",
+        "price": 4800,
+        "desc": "This cake is a special treat that is typically enjoyed during festive occasions. It has a rich aroma and a soft, moist texture that melts in your mouth. The cake is often decorated with vibrant colors and intricate designs that reflect the spirit of the celebration. It is a sweet and delicious dessert that brings joy to all who share it during these special times.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-7.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-7.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-7.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-7.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-7.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "Dreamy Cake",
+        "color": "Butter with Red",
+        "brand": "dreamy cake",
+        "category": "Festival Cake",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": false
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 2500,
+        "tags": "fruit",
+        "sizes": "s",
+        "review": 10,
+        "rating": 2,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Valentine day cake",
+        "slug": "Valentine day cake",
+        "moreLove": true,
+        "id": "8",
+        "price": 3500,
+        "desc": "This cake is a delightful treat that is perfect for sharing with your loved one on Valentine's Day. It has a decadent aroma and a soft, fluffy texture that is sure to impress. The cake is often adorned with intricate designs and delicate decorations that convey the sentiments of love and affection. It is a delicious and romantic dessert that is sure to make your Valentine's Day celebration even more special.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-8.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-8.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-8.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-8.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-8.jpg"
+            }
+        ],
+        "condition": "refurbished",
+        "vendor": "Dreamy Cake",
+        "color": "Red",
+        "brand": "dreamy cake",
+        "category": "Valentine day cake",
+        "featured": true,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": false
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 1500,
+        "tags": "milk",
+        "sizes": "s",
+        "review": 10,
+        "rating": 1,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Party Cake",
+        "slug": "Party Cake",
+        "moreLove": true,
+        "id": "9",
+        "price": 4500,
+        "desc": "This cake is a festive treat that is perfect for any celebration. It has a delightful aroma and a soft, fluffy texture that is sure to please guests of all ages. The cake is often decorated with vibrant colors and playful designs that add to the party atmosphere. It is a fun and delicious dessert that is sure to be a hit at any gathering.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-9.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-9.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-9.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-9.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-9.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "Dreamy Cake",
+        "color": "pink",
+        "brand": "dreamy cake",
+        "category": "Party Cake",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": false
+        },
+        "variations": [
+            "pink",
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 1500,
+        "tags": "milk",
+        "sizes": "s",
+        "review": 10,
+        "rating": 4,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Anniversary Cake",
+        "slug": "Anniversary Cake",
+        "moreLove": true,
+        "id": "10",
+        "price": 6700,
+        "desc": "This cake is a special dessert that is perfect for celebrating an anniversary. It has a rich and decadent aroma that fills the room, and a soft, moist texture that is irresistible. The cake is often decorated with elegant designs and intricate details that reflect the couple's journey together. It is a sweet and memorable way to mark a milestone in a couple's relationship and celebrate their love.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-10.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-10.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-10.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-10.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-10.jpg"
+            }
+        ],
+        "condition": "used",
+        "vendor": "Dreamy Cake",
+        "color": "Black",
+        "brand": "dreamy cake",
+        "category": "Anniversary Cake",
+        "featured": true,
+        "trending": false,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-8.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 2500,
+        "tags": "appetizer",
+        "sizes": "s",
+        "review": 10,
+        "rating": 4,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Father's Day Cake",
+        "slug": "Father's Day Cake",
+        "moreLove": true,
+        "id": "11",
+        "price": 116,
+        "desc": "This cake is a wonderful way to show appreciation for dads on Father's Day. It has a rich and enticing aroma that fills the room, and a soft, moist texture that is simply irresistible. The cake is often decorated with masculine designs and intricate details that reflect the spirit of the occasion. It is a sweet and heartfelt way to honor and celebrate fathers everywhere.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-11.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-11.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-11.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-11.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-11.jpg"
+            }
+        ],
+        "condition": "refurbished",
+        "vendor": "Dreamy Cake",
+        "color": "white",
+        "brand": "dreamy cake",
+        "category": "Father's Day Cake",
+        "featured": true,
+        "trending": false,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-8.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 1500,
+        "tags": "milk",
+        "sizes": "s",
+        "review": 10,
+        "rating": 4,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Mother's Day Cake",
+        "slug": "Mother's Day Cake",
+        "moreLove": true,
+        "id": "12",
+        "price": 5600,
+        "desc": "This cake is a special way to show appreciation for mothers on Mother's Day. It has a lovely aroma and a soft, fluffy texture that is sure to please. The cake is often decorated with feminine designs and delicate details that reflect the love and care of motherhood. It is a sweet and heartfelt dessert that is perfect for showing gratitude to moms everywhere.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-12.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-12.jpg"
+            }
+        ],
+        "totalSell": 1227,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-12.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-12.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-12.jpg"
+            }
+        ],
+        "condition": "refurbished",
+        "vendor": "Dreamy Cake",
+        "color": "pink",
+        "brand": "dreamy cake",
+        "category": "Mother's Day Cake",
+        "featured": true,
+        "trending": false,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 4,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "pink",
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 3500,
+        "tags": "milk",
+        "sizes": "s",
+        "review": 10,
+        "rating": 4,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Cheese Cake",
+        "slug": "Cheese Cake",
+        "moreLove": true,
+        "id": "13",
+        "price": 5350,
+        "oldPrice": 4350,
+        "desc": " This cake has a smooth and creamy texture that is sure to satisfy your sweet tooth. It is often topped with a sweet and tangy glaze or fruity compote that complements its rich flavor. The cake is typically baked in a crumbly crust that adds a satisfying crunch to each bite. It is a decadent dessert that is perfect for any occasion or as a special treat for yourself.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-13.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-13.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-13.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-13.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-13.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "Dreamy Cake",
+        "color": "Butter",
+        "brand": "dreamy cake",
+        "category": "Birthday cake",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 14,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 1500,
+        "tags": "appetizer",
+        "sizes": "s",
+        "stock": 8,
+        "review": 10,
+        "rating": 4,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Fruit Cake ",
+        "slug": "Fruit Cake",
+        "moreLove": true,
+        "id": "14",
+        "price": 3500,
+        "oldPrice": 2150,
+        "desc": "This cake is a delicious and festive treat that is perfect for the holiday season. It is filled with an assortment of sweet and tangy dried fruits that give it a unique and satisfying texture. The cake is often infused with warm spices and sweet aromatics that add to its delightful flavor. It is a classic dessert that is sure to please anyone with a sweet tooth.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-14.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-14.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-14.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-14.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-14.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "Dreamy Cake",
+        "color": "red",
+        "brand": "armani",
+        "category": "Party",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 14,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 1500,
+        "tags": "appetizer",
+        "sizes": "s",
+        "stock": 8,
+        "review": 10,
+        "rating": 3,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Cup Cake",
+        "slug": "Cup Cake",
+        "moreLove": true,
+        "id": "15",
+        "price": 250,
+        "oldPrice": 450,
+        "desc": " These mini cakes are a bite-sized delight that are perfect for any occasion. They are often topped with a fluffy and sweet frosting or a drizzle of decadent glaze. Cupcakes come in a variety of flavors and can be customized to match any party theme or personal preference. They are a fun and convenient dessert that is easy to share and enjoy with friends and family.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-15.png"
+            },
+            {
+                "img": "/assets/imgs/shop/product-15.png"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-15.png"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-15.png"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-15.png"
+            }
+        ],
+        "condition": "new",
+        "vendor": "Dreamy Cake",
+        "color": "brown",
+        "brand": "dreamy acke",
+        "category": "cup Cake",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 14,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 150,
+        "tags": "snack",
+        "sizes": "s",
+        "stock": 8,
+        "review": 10,
+        "rating": 3,
+        "ratingScore": 90,
+        "created": ""
+    },
+    {
+        "title": "Ice-cream Cake",
+        "slug": "Ice-cream Cake",
+        "moreLove": true,
+        "id": "16",
+        "price": 2800,
+        "oldPrice": 3200,
+        "desc": "This frozen dessert is the perfect treat for any occasion. It features layers of ice cream and cake that are often topped with whipped cream, fudge, or fruit. The combination of creamy ice cream and moist cake creates a unique texture that is both refreshing and satisfying. It is a delicious dessert that can be enjoyed year-round and is perfect for sharing with friends and family.",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-1-.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-1-.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-1-1.webp"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-1-1.webp"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-1-.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-1-1.webp"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-1-.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-1-1.webp"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-1-.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "Dreamy Cake",
+        "color": "Brown",
+        "brand": "dreamy cake",
+        "category": "Party",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 14,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "Brown",
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 1500,
+        "tags": "snack",
+        "sizes": "s",
+        "stock": 8,
+        "review": 10,
+        "rating": 3,
+        "ratingScore": 50,
+        "created": ""
+    },
+    {
+        "title": "Canada Dry Ginger Ale – 2 L Bottle",
+        "slug": "canada-dry-ginger-ale-–-2-l-bottle",
+        "moreLove": true,
+        "id": "17",
+        "price": 238.85,
+        "oldPrice": 245.8,
+        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-1-1.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-1-2.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-16-1.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-2.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-3.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-4.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-5.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-6.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-7.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "Costco",
+        "color": "blue",
+        "brand": "armani",
+        "category": "clothing",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 14,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 150,
+        "tags": "snack",
+        "sizes": "s",
+        "stock": 8,
+        "review": 10,
+        "rating": 3,
+        "ratingScore": 50,
+        "created": ""
+    },
+    {
+        "title": "Encore Seafoods Stuffed Alaskan",
+        "slug": "encore-seafoods-stuffed-alaskan",
+        "moreLove": true,
+        "id": "18",
+        "price": 238.85,
+        "oldPrice": 245.8,
+        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-1-1.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-1-2.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-16-1.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-2.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-3.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-4.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-5.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-6.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-7.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "stouffer",
+        "color": "blue",
+        "brand": "armani",
+        "category": "clothing",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 14,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 150,
+        "tags": "snack",
+        "sizes": "s",
+        "stock": 8,
+        "review": 10,
+        "rating": 3,
+        "ratingScore": 50,
+        "created": ""
+    },
+    {
+        "title": "Gorton’s Beer Battered Fish Fillets",
+        "slug": "gorton’s-beer-battered-fish-fillets",
+        "moreLove": true,
+        "id": "19",
+        "price": 238.85,
+        "oldPrice": 245.8,
+        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-1-1.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-1-2.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-16-1.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-2.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-3.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-4.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-5.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-6.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-7.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "stouffer",
+        "color": "blue",
+        "brand": "armani",
+        "category": "clothing",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 14,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 150,
+        "tags": "snack",
+        "sizes": "s",
+        "stock": 8,
+        "review": 10,
+        "rating": 3,
+        "ratingScore": 50,
+        "created": ""
+    },
+    {
+        "title": "Haagen-Dazs Caramel Cone Ice Cream",
+        "slug": "haagen-dazs-caramel-cone-ice-cream",
+        "moreLove": true,
+        "id": "20",
+        "price": 238.85,
+        "oldPrice": 245.8,
+        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "images": [
+            {
+                "img": "/assets/imgs/shop/product-1-1.jpg"
+            },
+            {
+                "img": "/assets/imgs/shop/product-1-2.jpg"
+            }
+        ],
+        "totalSell": 27,
+        "gallery": [
+            {
+                "thumb": "/assets/imgs/shop/product-16-1.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-2.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-3.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-4.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-5.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-6.jpg"
+            },
+            {
+                "thumb": "/assets/imgs/shop/product-16-7.jpg"
+            }
+        ],
+        "condition": "new",
+        "vendor": "stouffer",
+        "color": "blue",
+        "brand": "armani",
+        "category": "clothing",
+        "featured": false,
+        "trending": true,
+        "discount": {
+            "banner": "/assets/imgs/banner/banner-5.png",
+            "percentage": 14,
+            "expireDate": null,
+            "isActive": true
+        },
+        "variations": [
+            "red",
+            "yellow",
+            "white",
+            "orange",
+            "cyan",
+            "green",
+            "purple"
+        ],
+        "weight": 150,
+        "tags": "snack",
+        "sizes": "s",
+        "stock": 8,
+        "review": 10,
+        "rating": 3,
+        "ratingScore": 50,
+        "created": ""
+    }
+]
