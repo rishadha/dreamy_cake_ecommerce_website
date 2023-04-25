@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 const { ConnectionString } = require('mongodb-connection-string-url');
 
-console.log('ATLAS_URI:', process.env.ATLAS_URI="mongodb+srv://first1234:First1234@dreamycake.hdso7lx.mongodb.net/test");
+console.log('ATLAS_URI:', process.env.ATLAS_URI="mongodb+srv://firstdreamy702:QjmSMoYlgztwPD36@cluster0.9bdsruj.mongodb.net/?retryWrites=true&w=majority");
 
 const conn = new ConnectionString(process.env.ATLAS_URI);
 const client = new MongoClient(conn.toString({
