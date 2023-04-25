@@ -4,9 +4,9 @@ import axios from "axios";
 
 
 function Course() {
-    const [firstName, setFirstName] = useState("");
+    const [firstname, setFirstName] = useState("");
 
-    const [lastName, setLastName] = useState("");
+    const [lastname, setLastName] = useState("");
     const [lastNameError, setLastNameError] = useState("");
 
     const [email, setEmail] = useState("");
@@ -15,10 +15,10 @@ function Course() {
     const [address, setAddress] = useState("");
     const [addressError, setAddressError] = useState("");
 
-    const [phoneNumber, setPhoneNumber] = useState("");
+    const [phonenumber, setPhoneNumber] = useState("");
     const [phoneNumberError, setPhoneNumberError] = useState("");
 
-    const [certificate, setCertificate] = useState("");
+    const [course, setCertificate] = useState("");
     const [selectedOption, setSelectedOption] = useState("");
 
     const [successMessage, setSuccessMessage] = useState(null);
@@ -69,22 +69,22 @@ function Course() {
     const handleSubmit = (event) => {
         event.preventDefault();
         // Here you can add your form submission logic
-        console.log('firstName', firstName)
-        console.log('lastName', lastName)
+        console.log('firstname', firstname)
+        console.log('lastname', lastname)
         console.log('email', email)
         console.log('address', address)
-        console.log('phoneNUmber',phoneNumber)
-        console.log('certificate',certificate)
+        console.log('phonenumber',phonenumber)
+        console.log('ccourse',course)
 
-        if(firstName, lastName, email, address, phoneNumber, certificate){
+        if(firstname, lastname, email, address, phonenumber, course){
             console.log('Data succesfully post from the Front-end')
             axios.post('http://localhost:4000/api/courseData', {
-                firstName,
-                lastName,
+                firstname,
+                lastname,
                 email,
                 address,
-                phoneNumber,
-                certificate
+                phonenumber,
+                course
               })
               .then(function (response) {
                 console.log(response);
@@ -106,12 +106,12 @@ function Course() {
         return regex.test(number);
     };
     useEffect(() => {
-        if (phoneNumber && !validatePhoneNumber(phoneNumber)) {
+        if (phonenumber && !validatePhoneNumber(phonenumber)) {
             setPhoneNumberError("Please enter a valid 10-digit phone number.");
         } else {
             setPhoneNumberError("");
         }
-    }, [phoneNumber]);
+    }, [phonenumber]);
 
     const validateEmail = (email) => {
         const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -149,7 +149,7 @@ function Course() {
                                             id="first name"
                                             type="text"
                                             placeholder="First Name"
-                                            value={firstName}
+                                            value={firstname}
                                             onChange={handleFirstNameChange}
                                             required
                                         />
@@ -166,7 +166,7 @@ function Course() {
                                             id="last name"
                                             type="text"
                                             placeholder="Last Name"
-                                            value={lastName}
+                                            value={lastname}
                                             onChange={handleLastNameChange}
                                             required
                                         />
@@ -218,7 +218,7 @@ function Course() {
                                             id="phonenumber"
                                             type="tel"
                                             placeholder="Phone Number"
-                                            value={phoneNumber}
+                                            value={phonenumber}
                                             onChange={handlePhoneNumberChange}
                                             required
                                         />
@@ -232,7 +232,7 @@ function Course() {
                                                 className="form-control"
                                                 name="certificate"
                                                 id="certificate"
-                                                value={certificate}
+                                                value={course}
                                                 onChange={handleCertificateChange}
                                             >
                                                 <option value="Certificate Course">Certificate Course</option>

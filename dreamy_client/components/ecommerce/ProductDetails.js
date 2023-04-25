@@ -104,16 +104,16 @@ const ProductDetails = ({
                                                 <strong className="mr-10">Size</strong>
                                                 <ul className="list-filter size-filter font-small">
                                                     <li className="active">
-                                                        <a>M</a>
+                                                        <a>500g</a>
                                                     </li>
                                                     <li>
-                                                        <a>L</a>
+                                                        <a>1KG</a>
                                                     </li>
                                                     <li>
-                                                        <a>XL</a>
+                                                        <a>2KG</a>
                                                     </li>
                                                     <li>
-                                                        <a>XXL</a>
+                                                        <a>3KG</a>
                                                     </li>
                                                 </ul>
                                             </div>
