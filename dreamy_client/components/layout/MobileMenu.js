@@ -42,7 +42,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                             <Link href="/">
                                 <a>
                                     <img
-                                        src="/assets/imgs/theme/"
+                                        src="/assets/imgs/theme/logo1.png"
                                         alt="logo"
                                     />
                                 </a>
@@ -170,39 +170,12 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             className="menu-expand"
                                             onClick={() => handleToggle(1)}
                                         >
-                                            <i className="fi-rs-angle-small-down"></i>
+                                            
                                         </span>
                                         <Link href="/index">
                                             <a>Home</a>
                                         </Link>
-                                        <ul
-                                            className={
-                                                isActive.key == 1
-                                                    ? "dropdown"
-                                                    : "d-none"
-                                            }
-                                        >
-                                            <li>
-                                                <Link href="/index">
-                                                    <a>Home 1</a>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/index-2">
-                                                    <a>Home 2</a>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/index-3">
-                                                    <a>Home 3</a>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/index-4">
-                                                    <a>Home 4</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
+                                        
                                     </li>
                                     <li
                                         className={
@@ -227,29 +200,9 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                                     : "d-none"
                                             }
                                         >
-                                            <li>
-                                               <Link href="/shop-grid-right">
-                                                    <a>
-                                                        Shop Grid – Right
-                                                        Sidebar
-                                                    </a>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/shop-grid-left">
-                                                    <a>
-                                                        Shop Grid – Left Sidebar
-                                                    </a>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/shop-list-right">
-                                                    <a>
-                                                        Shop List – Right
-                                                        Sidebar
-                                                    </a>
-                                                </Link>
-                                            </li>
+                                            
+                                            
+                                            
                                             <li>
                                                 <Link href="/shop-list-left">
                                                     <a>

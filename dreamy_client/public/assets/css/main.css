@@ -11717,3 +11717,19 @@ footer .hotline img {
 	z-index: 99999;
 }
 /*# sourceMappingURL=main.css.map */
+.page-content input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  vertical-align:left;
+}
+
+.table-noborder {
+  border-collapse: collapse;
+  border: none;
+}
+
+.table-noborder td, .table-noborder th {
+  padding: 8px;
+  text-align: left;
+}

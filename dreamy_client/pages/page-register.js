@@ -32,12 +32,7 @@ function Login() {
                                                     <div className="chek-form">
                                                         <input type="text" required="" name="email" placeholder="Security code *" />
                                                     </div>
-                                                    <span className="security-code">
-                                                        <b className="text-new">8</b>
-                                                        <b className="text-hot">6</b>
-                                                        <b className="text-sale">7</b>
-                                                        <b className="text-best">5</b>
-                                                    </span>
+                                                    
                                                 </div>
                                                 <div className="login_footer form-group mb-50">
                                                     <div className="chek-form">

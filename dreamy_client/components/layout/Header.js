@@ -117,26 +117,7 @@ const Header = ({
                                 <div className="header-action-right">
                                     <div className="header-action-2">
                                         <div className="search-location">
-                                            <form action="#">
-                                                <select className="select-active">
-                                                    <option>
-                                                        Your Location
-                                                    </option>
-                                                    <option>Alabama</option>
-                                                    <option>Alaska</option>
-                                                    <option>Arizona</option>
-                                                    <option>Delaware</option>
-                                                    <option>Florida</option>
-                                                    <option>Georgia</option>
-                                                    <option>Hawaii</option>
-                                                    <option>Indiana</option>
-                                                    <option>Maryland</option>
-                                                    <option>Nevada</option>
-                                                    <option>New Jersey</option>
-                                                    <option>New Mexico</option>
-                                                    <option>New York</option>
-                                                </select>
-                                            </form>
+                                            
                                         </div>
 
                                         <div className="header-action-icon-2">
@@ -258,87 +239,7 @@ const Header = ({
                                 <div className="main-categori-wrap d-none d-lg-block">
                                     <h2> Dreamy Cake</h2>
                                 </div>
-                                {/*<div className="main-categori-wrap d-none d-lg-block">*/}
-                                {/*    <a*/}
-                                {/*        className="categories-button-active"*/}
-                                {/*        onClick={handleToggle}*/}
-                                {/*    >*/}
-                                {/*        <span className="fi-rs-apps"></span>*/}
-                                {/*        <span className="et">Browse</span> All*/}
-                                {/*        Categories*/}
-                                {/*        <i className="fi-rs-angle-down"></i>*/}
-                                {/*    </a>*/}
-
-                                    {/*<div*/}
-                                    {/*    className={*/}
-                                    {/*        isToggled*/}
-                                    {/*            ? "categories-dropdown-wrap categories-dropdown-active-large font-heading open"*/}
-                                    {/*            : "categories-dropdown-wrap categories-dropdown-active-large font-heading"*/}
-                                    {/*    }*/}
-                                    {/*>*/}
-                                    {/*    /!*<div className="d-flex categori-dropdown-inner">*!/*/}
-                                    {/*    /!*    <CategoryProduct2/>*!/*/}
-                                    {/*    /!*    <CategoryProduct3/>*!/*/}
-                                    {/*    /!*</div>*!/*/}
-                                    {/*    /!*<div*!/*/}
-                                    {/*    /!*    className="more_slide_open"*!/*/}
-                                    {/*    /!*    style={{ display: "none" }}*!/*/}
-                                    {/*    /!*>*!/*/}
-                                    {/*    /!*    <div className="d-flex categori-dropdown-inner">*!/*/}
-                                    {/*    /!*        /!*<ul>*!/*!/*/}
-                                    {/*    /!*        /!*    <li>*!/*!/*/}
-                                    {/*    /!*        /!*        <Link href="/products"><a>*!/*!/*/}
-                                    {/*    /!*        /!*            {" "}*!/*!/*/}
-                                    {/*    /!*        /!*            <img*!/*!/*/}
-                                    {/*    /!*        /!*                src="/assets/imgs/theme/icons/icon-1.svg"*!/*!/*/}
-                                    {/*    /!*        /!*                alt=""*!/*!/*/}
-                                    {/*    /!*        /!*            />*!/*!/*/}
-                                    {/*    /!*        /!*            Milks and Dairies*!/*!/*/}
-                                    {/*    /!*        /!*        </a></Link>*!/*!/*/}
-                                    {/*    /!*        /!*    </li>*!/*!/*/}
-                                    {/*    /!*        /!*    <li>*!/*!/*/}
-                                    {/*    /!*        /!*        <Link href="/products"><a>*!/*!/*/}
-                                    {/*    /!*        /!*            {" "}*!/*!/*/}
-                                    {/*    /!*        /!*            <img*!/*!/*/}
-                                    {/*    /!*        /!*                src="/assets/imgs/theme/icons/icon-2.svg"*!/*!/*/}
-                                    {/*    /!*        /!*                alt=""*!/*!/*/}
-                                    {/*    /!*        /!*            />*!/*!/*/}
-                                    {/*    /!*        /!*            Clothing & beauty*!/*!/*/}
-                                    {/*    /!*        /!*        </a></Link>*!/*!/*/}
-                                    {/*    /!*        /!*    </li>*!/*!/*/}
-                                    {/*    /!*        /!*</ul>*!/*!/*/}
-                                    {/*    /!*        /!*<ul className="end">*!/*!/*/}
-                                    {/*    /!*        /!*    <li>*!/*!/*/}
-                                    {/*    /!*        /!*        <Link href="/products"><a>*!/*!/*/}
-                                    {/*    /!*        /!*            {" "}*!/*!/*/}
-                                    {/*    /!*        /!*            <img*!/*!/*/}
-                                    {/*    /!*        /!*                src="/assets/imgs/theme/icons/icon-3.svg"*!/*!/*/}
-                                    {/*    /!*        /!*                alt=""*!/*!/*/}
-                                    {/*    /!*        /!*            />*!/*!/*/}
-                                    {/*    /!*        /!*            Wines & Drinks*!/*!/*/}
-                                    {/*    /!*        /!*        </a></Link>*!/*!/*/}
-                                    {/*    /!*        /!*    </li>*!/*!/*/}
-                                    {/*    /!*        /!*    <li>*!/*!/*/}
-                                    {/*    /!*        /!*        <Link href="/products"><a>*!/*!/*/}
-                                    {/*    /!*        /!*            {" "}*!/*!/*/}
-                                    {/*    /!*        /!*            <img*!/*!/*/}
-                                    {/*    /!*        /!*                src="/assets/imgs/theme/icons/icon-4.svg"*!/*!/*/}
-                                    {/*    /!*        /!*                alt=""*!/*!/*/}
-                                    {/*    /!*        /!*            />*!/*!/*/}
-                                    {/*    /!*        /!*            Fresh Seafood*!/*!/*/}
-                                    {/*    /!*        /!*        </a></Link>*!/*!/*/}
-                                    {/*    /!*        /!*    </li>*!/*!/*/}
-                                    {/*    /!*        /!*</ul>*!/*!/*/}
-                                    {/*    /!*    </div>*!/*/}
-                                    {/*    /!*</div>*!/*/}
-                                    {/*    /!*<div className="more_categories">*!/*/}
-                                    {/*    /!*    <span className="icon"></span>{" "}*!/*/}
-                                    {/*    /!*    <span className="heading-sm-1">*!/*/}
-                                    {/*    /!*        Show more...*!/*/}
-                                    {/*    /!*    </span>*!/*/}
-                                    {/*    /!*</div>*!/*/}
-                                    {/*</div>*/}
-                                {/*</div>*/}
+                              
                                 <div className="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block  font-heading">
                                     <nav>
                                         <ul>
@@ -442,15 +343,11 @@ const Header = ({
                                                             </a>
                                                         </Link>
                                                     </li>
-                                                    <li>
-                                                        <Link href="/page-404">
-                                                            <a>404 Page</a>
-                                                        </Link>
-                                                    </li>
+                                                   
                                                 </ul>
                                             </li>
                                             <li>
-                                                <Link href="/page-contact">
+                                                <Link href="/page-payment">
                                                     <a>payment</a>
                                                 </Link>
                                             </li>
@@ -523,75 +420,7 @@ const Header = ({
                                             </a>
                                         </Link>
                                         <div className="cart-dropdown-wrap cart-dropdown-hm2">
-                                            <ul>
-                                                <li>
-                                                    <div className="shopping-cart-img">
-                                                        <Link href="/shop-grid-right">
-                                                            <a>
-                                                                <img
-                                                                    alt="Evara"
-                                                                    src="/assets/imgs/shop/thumbnail-3.jpg"
-                                                                />
-                                                            </a>
-                                                        </Link>
-                                                    </div>
-                                                    <div className="shopping-cart-title">
-                                                        <h4>
-                                                            <Link href="/shop-grid-right">
-                                                                <a>
-                                                                    Plain
-                                                                    Striola
-                                                                    Shirts
-                                                                </a>
-                                                            </Link>
-                                                        </h4>
-                                                        <h3>
-                                                            <span>1 × </span>
-                                                            $800.00
-                                                        </h3>
-                                                    </div>
-                                                    <div className="shopping-cart-delete">
-                                                        <Link href="/#">
-                                                            <a>
-                                                                <i className="fi-rs-cross-small"></i>
-                                                            </a>
-                                                        </Link>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div className="shopping-cart-img">
-                                                        <Link href="/shop-grid-right">
-                                                            <a>
-                                                                <img
-                                                                    alt="Evara"
-                                                                    src="/assets/imgs/shop/thumbnail-4.jpg"
-                                                                />
-                                                            </a>
-                                                        </Link>
-                                                    </div>
-                                                    <div className="shopping-cart-title">
-                                                        <h4>
-                                                            <Link href="/shop-grid-right">
-                                                                <a>
-                                                                    Macbook Pro
-                                                                    2022
-                                                                </a>
-                                                            </Link>
-                                                        </h4>
-                                                        <h3>
-                                                            <span>1 × </span>
-                                                            $3500.00
-                                                        </h3>
-                                                    </div>
-                                                    <div className="shopping-cart-delete">
-                                                        <Link href="/#">
-                                                            <a>
-                                                                <i className="fi-rs-cross-small"></i>
-                                                            </a>
-                                                        </Link>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                        
                                             <div className="shopping-cart-footer">
                                                 <div className="shopping-cart-total">
                                                     <h4>
