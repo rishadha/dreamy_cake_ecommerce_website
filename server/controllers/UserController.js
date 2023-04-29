@@ -1,26 +1,37 @@
-const user = require("../models/UserModel");
+const User = require("../models/UserModel");
 const ErrorHandler = require("../utils/ErrorHandler.js");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
-const Features = require("../utils/Features");
-const sendToken = require("../utils/jwtToken");
+const sendToken = require("../utils/jwtToken.js");
 const sendMail = require("../utils/sendMail.js");
 const crypto = require("crypto");
+const cloudinary = require("cloudinary");
 
-//Register user
+// Register user
 exports.createUser = catchAsyncErrors(async (req, res, next) => {
-  const { name, email, password } = req.body;
+  try {
+    const { name, email, password } = req.body;
 
-  const user = await user.createIndexes({
-    name,
-    email,
-    password,
-    avatar: {
-      public_id: "https://test.com",
-      url: "https://test.com",
-    },
-  });
+    let user = await User.findOne({ email });
+    if (user) {
+      return res
+        .status(400)
+        .json({ success: false, message: "User already exists" });
+    }
 
-  sendToken(user, 201, res);
+    user = await User.create({
+      name,
+      email,
+      password
+    });
+    
+    sendToken(user, 201, res);
+
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
 });
 
 // Login User
@@ -30,7 +41,8 @@ exports.loginUser = catchAsyncErrors(async (req, res, next) => {
   if (!email || !password) {
     return next(new ErrorHandler("Please enter the email & password", 400));
   }
-  const user = await user.findOne({ email }).select("+password");
+
+  const user = await User.findOne({ email }).select("+password");
 
   if (!user) {
     return next(
@@ -44,6 +56,7 @@ exports.loginUser = catchAsyncErrors(async (req, res, next) => {
       new ErrorHandler("User is not find with this email & password", 401)
     );
   }
+
   sendToken(user, 201, res);
 });
 
@@ -60,7 +73,7 @@ exports.logoutUser = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-//forget password
+// Forgot password
 exports.forgotPassword = catchAsyncErrors(async (req, res, next) => {
   const user = await User.findOne({ email: req.body.email });
 
@@ -75,6 +88,7 @@ exports.forgotPassword = catchAsyncErrors(async (req, res, next) => {
   await user.save({
     validateBeforeSave: false,
   });
+
   const resetPasswordUrl = `${req.protocol}://${req.get(
     "host"
   )}/password/reset/${resetToken}`;
@@ -182,9 +196,9 @@ exports.updateProfile = catchAsyncErrors(async(req,res,next) =>{
         name: req.body.name,
         email: req.body.email,
     };
-    //add cloudinary later and giving condition for avatar
+
    if (req.body.avatar !== "") {
-    const user = await user.findById(req.user.id);
+    const user = await User.findById(req.user.id);
 
     const imageId = user.avatar.public_id;
 
@@ -201,7 +215,7 @@ exports.updateProfile = catchAsyncErrors(async(req,res,next) =>{
     };
   }
 
-  const user = await user.findByIdAndUpdate(req.user.id, newUserData, {
+  const user = await User.findByIdAndUpdate(req.user.id, newUserData, {
     new: true,
     runValidator: true,
     useFindAndModify: false,
@@ -258,20 +272,20 @@ exports.updateUserRole = catchAsyncErrors(async(req,res,next) =>{
 // Delete User ---Admin
 exports.deleteUser = catchAsyncErrors(async(req,res,next) =>{
   
-    const user = await User.findById(req.params.id);
- 
-    const imageId = user.avatar.public_id;
- 
-    await cloudinary.v2.uploader.destroy(imageId);
- 
-     if(!user){
-         return next(new ErrorHandler("User is not found with this id",400));
-     }
- 
-     await user.remove();
- 
-     res.status(200).json({
-         success: true,
-         message:"User deleted successfully"
-     })
- });
+   const user = await User.findById(req.params.id);
+
+   const imageId = user.avatar.public_id;
+
+   await cloudinary.v2.uploader.destroy(imageId);
+
+    if(!user){
+        return next(new ErrorHandler("User is not found with this id",400));
+    }
+
+    await user.remove();
+
+    res.status(200).json({
+        success: true,
+        message:"User deleted successfully"
+    })
+});
