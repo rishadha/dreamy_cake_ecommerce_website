@@ -3,6 +3,11 @@ const app = express();
 const cors = require("cors");
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
+const cookieParser = require('cookie-parser');
+
+// Use cookie-parser middleware
+app.use(cookieParser());
+
 
 require("dotenv").config({ path: "./config.env" });
 const port = process.env.PORT || 4000;
@@ -15,6 +20,9 @@ const userRoutes = require("./routes/UserRoute");
 // Add user routes to the application
 app.use("/api", userRoutes);
 
+const productRoutes = require("./routes/ProductRoute");
+
+app.use("/api", productRoutes);
 
 app.use(require("./routes/record"));
 
