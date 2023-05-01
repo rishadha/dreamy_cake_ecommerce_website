@@ -22,35 +22,35 @@ const CategoryProduct = ({ updateProductCategory }) => {
                 <li onClick={(e) => selectCategory(e, "")}>
                     <a>All</a>
                 </li>
-                <li onClick={(e) => selectCategory(e, "jeans")}>
+                <li onClick={(e) => selectCategory(e, "blackforest")}>
                     <a>
                         <img
-                            src="/assets/imgs/theme/icons/category-1.svg"
+                            src="/assets/imgs/theme/icons/category-3.png"
                             alt=""
                         />
-                        Milks & Dairies
+                        Blackforest 
                     </a>
-                    <span className="count">30</span>
+                    
                 </li>
                 <li onClick={(e) => selectCategory(e, "shoe")}>
                     <a>
                         <img
-                            src="/assets/imgs/theme/icons/category-2.svg"
+                            src="/assets/imgs/theme/icons/category-1.png"
                             alt=""
                         />
-                        Clothing
+                       Redvelvet
                     </a>
-                    <span className="count">35</span>
+                    
                 </li>
                 <li onClick={(e) => selectCategory(e, "jacket")}>
                     <a>
                         <img
-                            src="/assets/imgs/theme/icons/category-3.svg"
+                            src="/assets/imgs/theme/icons/category-2.jpg"
                             alt=""
                         />
-                        Pet Foods{" "}
+                        CupCake{" "}
                     </a>
-                    <span className="count">42</span>
+                    
                 </li>                
             </ul>
         </>

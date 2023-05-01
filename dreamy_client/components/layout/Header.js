@@ -352,7 +352,7 @@ const Header = ({
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/page-contact">
+                                                <Link href='/page-gallery'>
                                                     <a>Gallery</a>
                                                 </Link>
                                             </li>
@@ -425,7 +425,7 @@ const Header = ({
                                                 <div className="shopping-cart-total">
                                                     <h4>
                                                         Total
-                                                        <span>$383.00</span>
+                                                        <span>Rs.3830.00</span>
                                                     </h4>
                                                 </div>
                                                 <div className="shopping-cart-button">

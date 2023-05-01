@@ -122,7 +122,7 @@ const SingleProduct = ({
 
                     <div>
                         <span className="font-small text-muted">
-                            By <Link href="/vendor/1"><a>NestFood</a></Link>
+                            By <Link href="/vendor/1"><a>Dreamy Cake</a></Link>
                         </span>
                     </div>
 

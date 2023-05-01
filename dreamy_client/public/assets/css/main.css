@@ -122,7 +122,7 @@ a {
 }
 
 a:hover {
-  color: #FDC040;
+  color: #ff008c;
 }
 
 li.hr span {
@@ -137,18 +137,18 @@ li.hr span {
 ::-moz-selection {
   background: #e80784;
   /* WebKit/Blink Browsers */
-  color: #fff;
+  color: #fbfbfb;
 }
 ::selection {
   background: #e80784;
   /* WebKit/Blink Browsers */
-  color: #fff;
+  color: #fbfbfb;
 }
 
 ::-moz-selection {
   background: #e80784;
   /* Gecko Browsers */
-  color: #fff;
+  color: fbfbfb;
 }
 
 ::-webkit-input-placeholder {
@@ -6960,10 +6960,7 @@ h6.post-title {
   padding: 3px 35px 3px 20px;
   border-radius: 4px 0 0 4px;
   background-color: #fff;
-  -webkit-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
-  -moz-appearance: none;
-  -webkit-appearance: none;
   position: relative;
 }
 
@@ -11732,4 +11729,226 @@ footer .hotline img {
 .table-noborder td, .table-noborder th {
   padding: 8px;
   text-align: left;
+}
+.modal-overlay
+ {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 800px;
+  width: 90%;
+}
+/*---==================
+    11. Gallery css 
+=================----*/
+.gallery-slider-one {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.gallery-slider-one .gallery-item-one {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.gallery-filter-button .filter-btn li {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid rgba(14, 19, 23, 0.1);
+  border-radius: 5px;
+  padding: 9px 30px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0E1317;
+  margin: 10px 5px 0;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.gallery-filter-button .filter-btn li.active, .gallery-filter-button .filter-btn li:hover {
+  color: #fff;
+  background-color: #e80784;
+  border-color: transparent;
+}
+
+.single-gallery-item:hover .gallery-img .gallery-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.single-gallery-item:hover .gallery-img .gallery-overlay .hover-content {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+.single-gallery-item .gallery-img {
+  position: relative;
+  overflow: hidden;
+}
+.single-gallery-item .gallery-img .gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 19, 23, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  padding: 50px 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.single-gallery-item .gallery-img .gallery-overlay .hover-content {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+.single-gallery-item .gallery-img .gallery-overlay .hover-content .cat-btn {
+  background-color: #e80784;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #fff;
+}
+.single-gallery-item .gallery-img .gallery-overlay .hover-content h3.title {
+  background-color: #fff;
+  padding: 10px 25px;
+  color: #0E1317;
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.gallery-item-one:hover .gallery-img .hover-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.gallery-item-one:hover .gallery-img .hover-overlay .hover-content {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+.gallery-item-one .gallery-img {
+  position: relative;
+  overflow: hidden;
+}
+.gallery-item-one .gallery-img img {
+  width: 100%;
+}
+.gallery-item-one .gallery-img .hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 19, 23, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.gallery-item-one .gallery-img .hover-overlay .hover-content {
+  padding: 25px 50px;
+  background-color: #fff;
+  text-align: center;
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+.gallery-item-one .gallery-img .hover-overlay .tag-btn {
+  color: #e80784;
+  margin-bottom: 10px;
+}
+.gallery-item-one .gallery-img .hover-overlay h3.title {
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 18px;
+}
+.gallery-item-one .gallery-img .hover-overlay .icon-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #e80784;
+  color: #fff;
+  -webkit-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+
+.gallery-item-two:hover .gallery-img .hover-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.gallery-item-two:hover .gallery-img .hover-overlay .icon-btn {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+.gallery-item-two .gallery-img {
+  position: relative;
+  overflow: hidden;
+}
+.gallery-item-two .gallery-img img {
+  width: 100%;
+}
+.gallery-item-two .gallery-img .hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 19, 23, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.gallery-item-two .gallery-img .hover-overlay .icon-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #e80784;
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+  -webkit-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+.gallery-item-two .gallery-content {
+  padding-top: 25px;
+}
+.gallery-item-two .gallery-content h3.title {
+  line-height: 33px;
+}
+@media (max-width: 767px) {
+  .gallery-item-two .gallery-content h3.title {
+    font-size: 24px;
+    line-height: 30px;
+  }
 }

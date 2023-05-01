@@ -35,7 +35,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 14,
             "expireDate": null,
             "isActive": true
@@ -93,7 +93,7 @@
         "featured": true,
         "trending": false,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-6.png",
+            "banner": "/assets/imgs/banner/banners-6.jpg",
             "percentage": 4,
             "expireDate": null,
             "isActive": false
@@ -150,7 +150,7 @@
         "featured": true,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-7.png",
+            "banner": "/assets/imgs/banner/banners-7.jpeg",
             "percentage": 4,
             "expireDate": null,
             "isActive": false
@@ -205,7 +205,7 @@
         "featured": true,
         "trending": false,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-6.png",
+            "banner": "/assets/imgs/banner/banners-6.jpg",
             "percentage": 4,
             "expireDate": null,
             "isActive": true
@@ -257,7 +257,7 @@
         "featured": true,
         "trending": false,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 4,
             "expireDate": null,
             "isActive": false
@@ -314,7 +314,7 @@
         "featured": true,
         "trending": false,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 4,
             "expireDate": null,
             "isActive": false
@@ -371,7 +371,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 4,
             "expireDate": null,
             "isActive": false
@@ -428,7 +428,7 @@
         "featured": true,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 4,
             "expireDate": null,
             "isActive": false
@@ -485,7 +485,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 4,
             "expireDate": null,
             "isActive": false
@@ -543,7 +543,7 @@
         "featured": true,
         "trending": false,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-8.png",
+            "banner": "/assets/imgs/banner/banners-8.jpg",
             "percentage": 4,
             "expireDate": null,
             "isActive": true
@@ -600,7 +600,7 @@
         "featured": true,
         "trending": false,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-8.png",
+            "banner": "/assets/imgs/banner/banners-81.jpg",
             "percentage": 4,
             "expireDate": null,
             "isActive": true
@@ -657,7 +657,7 @@
         "featured": true,
         "trending": false,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 4,
             "expireDate": null,
             "isActive": true
@@ -716,7 +716,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 14,
             "expireDate": null,
             "isActive": true
@@ -775,7 +775,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 14,
             "expireDate": null,
             "isActive": true
@@ -834,7 +834,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 14,
             "expireDate": null,
             "isActive": true
@@ -905,7 +905,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 14,
             "expireDate": null,
             "isActive": true
@@ -930,44 +930,33 @@
         "created": ""
     },
     {
-        "title": "Canada Dry Ginger Ale – 2 L Bottle",
-        "slug": "canada-dry-ginger-ale-–-2-l-bottle",
+        "title": "Birthday Cake",
+        "slug": "Birthday Cake",
         "moreLove": true,
         "id": "17",
         "price": 238.85,
         "oldPrice": 245.8,
-        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "desc": "A birthday cake is a celebratory cake typically enjoyed on someone's birthday. It is usually a layered cake with a soft and moist crumb, and can be flavored with vanilla, chocolate, or other flavors. The cake is often frosted with a sweet and creamy icing, which can be made from buttercream, cream cheese, whipped cream, or other types of frosting. The cake is often decorated with colorful sprinkles, edible flowers, or other festive decorations. It is a popular tradition to place candles on top of the cake, which the birthday person can blow out while making a wish. ",
         "images": [
             {
-                "img": "/assets/imgs/shop/product-1-1.jpg"
+                "img": "/assets/imgs/shop/product-16.jpeg"
             },
             {
-                "img": "/assets/imgs/shop/product-1-2.jpg"
+                "img": "/assets/imgs/shop/product-16.jpeg"
             }
         ],
         "totalSell": 27,
         "gallery": [
             {
-                "thumb": "/assets/imgs/shop/product-16-1.jpg"
+                "thumb": "/assets/imgs/shop/product-16.jpeg"
             },
             {
-                "thumb": "/assets/imgs/shop/product-16-2.jpg"
+                "thumb": "/assets/imgs/shop/product-16.jpeg"
             },
             {
-                "thumb": "/assets/imgs/shop/product-16-3.jpg"
-            },
-            {
-                "thumb": "/assets/imgs/shop/product-16-4.jpg"
-            },
-            {
-                "thumb": "/assets/imgs/shop/product-16-5.jpg"
-            },
-            {
-                "thumb": "/assets/imgs/shop/product-16-6.jpg"
-            },
-            {
-                "thumb": "/assets/imgs/shop/product-16-7.jpg"
+                "thumb": "/assets/imgs/shop/product-16.jpeg"
             }
+           
         ],
         "condition": "new",
         "vendor": "Costco",
@@ -977,7 +966,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 14,
             "expireDate": null,
             "isActive": true
@@ -1001,44 +990,39 @@
         "created": ""
     },
     {
-        "title": "Encore Seafoods Stuffed Alaskan",
-        "slug": "encore-seafoods-stuffed-alaskan",
+        "title": "Choclate Cake",
+        "slug": "Chocolate cake with chocolate icing.T",
         "moreLove": true,
         "id": "18",
         "price": 238.85,
         "oldPrice": 245.8,
-        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi? Officia doloremque facere quia. Voluptatum, accusantium!",
+        "desc": "Chocolate cake with chocolate icing.This dessert is a classic indulgence for chocolate lovers. The cake itself is rich and moist, with a deep chocolate flavor that is sure to satisfy any sweet tooth. On top of the cake is a decadent layer of chocolate icing, which is smooth, creamy, and has a slightly bittersweet taste that balances out the sweetness of the cake. Together, the cake and icing create a harmonious and delicious chocolate experience.",
         "images": [
             {
-                "img": "/assets/imgs/shop/product-1-1.jpg"
+                "img": "/assets/imgs/shop/product-1-1.webp"
             },
             {
-                "img": "/assets/imgs/shop/product-1-2.jpg"
+                "img": "/assets/imgs/shop/product-1-1.webp"
             }
         ],
         "totalSell": 27,
         "gallery": [
             {
-                "thumb": "/assets/imgs/shop/product-16-1.jpg"
+                "thumb": "/assets/imgs/shop/product-1-1.webp"
             },
             {
-                "thumb": "/assets/imgs/shop/product-16-2.jpg"
+                "thumb": "/assets/imgs/shop/product-1-1.webp"
             },
             {
-                "thumb": "/assets/imgs/shop/product-16-3.jpg"
+                "thumb": "/assets/imgs/shop/product-1-1.webp"
             },
             {
-                "thumb": "/assets/imgs/shop/product-16-4.jpg"
+                "thumb": "/assets/imgs/shop/product-1-1.webp"
             },
             {
-                "thumb": "/assets/imgs/shop/product-16-5.jpg"
-            },
-            {
-                "thumb": "/assets/imgs/shop/product-16-6.jpg"
-            },
-            {
-                "thumb": "/assets/imgs/shop/product-16-7.jpg"
+                "thumb": "/assets/imgs/shop/product-1-1.webp"
             }
+            
         ],
         "condition": "new",
         "vendor": "stouffer",
@@ -1048,7 +1032,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 14,
             "expireDate": null,
             "isActive": true
@@ -1119,7 +1103,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 14,
             "expireDate": null,
             "isActive": true
@@ -1190,7 +1174,7 @@
         "featured": false,
         "trending": true,
         "discount": {
-            "banner": "/assets/imgs/banner/banner-5.png",
+            "banner": "/assets/imgs/banner/banners-5.jpg",
             "percentage": 14,
             "expireDate": null,
             "isActive": true

@@ -1,8 +1,8 @@
 import Layout from "../components/layout/Layout";
 import { useState } from "react";
+import PageCreditCard from "./page-creditcard"
 
-
-function Contact() {
+function payment() {
   const [paymentMethod, setPaymentMethod] = useState("");
 
   const handlePaymentMethodChange = (event) => {
@@ -11,35 +11,40 @@ function Contact() {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    console.log("Selected payment method:", paymentMethod);
+    // console.log("Selected payment method:", paymentMethod);
+    if (paymentMethod === 'credit-card') {
+      // redirect to credit card page
+      window.location.href = '/creditcard';
+    } 
   };
 
   return (
     <>
-      <Layout parent="Home" sub="Pages" subChild="Contact">
+      <Layout parent="Home" sub="Pages" subChild="payment">
         <div className="page-content pt-50">
           <div className="container">
             <div className="row">
               <div className="col-xl-10 col-lg-12 m-auto">
                 <section className="row align-items-end mb-50">
-                  <div className="col-lg-15 mb-lg-0 mb-md-5 mb-sm-1">
+                  <div className="col-lg-15 mb-lg-0 mb-md-5 mb-sm-1 text-justify-center">
                     <h4 className="mb-4">Choose your payment method</h4>
-                    <h2 className="mb-35">Choose your payment method</h2>
                     <form onSubmit={handleFormSubmit}>
-                      <div className="form-group">
-                        <label htmlFor="credit-card">Credit Card</label>
-                        <input
-                          type="radio"
-                          id="credit-card"
-                          name="payment-method"
-                          value="credit-card"
-                          checked={paymentMethod === "credit-card"}
-                          onChange={handlePaymentMethodChange}
-                        />
+                      <div >
+                      <div>
+                      <input
+                        type="radio"
+                        id="credit-card"
+                        name="payment-method"
+                        value="credit-card"
+                        checked={paymentMethod === "credit-card"}
+                        onChange={handlePaymentMethodChange}
+                      />
+                      <label htmlFor="pickup">Credit Card</label>
+                    </div>
                       </div>
-                      {paymentMethod === "credit-card" && (
+                      {/* {paymentMethod === "credit-card" && (
                         <>
-                          <div className="form-group">
+                          <div >
                             <label htmlFor="card-type">Card Type</label>
                             <select id="card-type" className="form-control">
                               <option value="visa">Visa</option>
@@ -79,21 +84,26 @@ function Contact() {
                             </div>
                           </div>
                         </>
-                      )}
+                      )} */}
                       <div className="form-group">
-                        <label htmlFor="cash">Cash on</label>
-                        <input
-                          type="radio"
-                          id="cash"
-                          name="payment-method"
-                          value="cash"
-                          checked={paymentMethod === "cash"}
-                          onChange={handlePaymentMethodChange}
-                        />
+
+                      <div>
+                      <input
+                        type="radio"
+                        id="cash"
+                        name="payment-method"
+                        value="cash"
+                        checked={paymentMethod === "cash"}
+                        onChange={handlePaymentMethodChange}
+                      />
+                      <label htmlFor="pickup">Cash on</label>
+                    </div>
+                        
                       </div>
                       <button type="submit" className="btn btn-primary">
                         Check Out
                       </button>
+                      <PageCreditCard/> 
                     </form>
                   </div>
                 </section>
@@ -109,4 +119,4 @@ function Contact() {
 
 
 
-export default Contact;
+export default payment;

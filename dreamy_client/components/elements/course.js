@@ -74,7 +74,7 @@ function Course() {
         console.log('email', email)
         console.log('address', address)
         console.log('phonenumber',phonenumber)
-        console.log('ccourse',course)
+        console.log('course',course)
 
         if(firstname, lastname, email, address, phonenumber, course){
             console.log('Data succesfully post from the Front-end')

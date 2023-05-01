@@ -18,7 +18,7 @@ function Login() {
                                     <div className="login_wrap widget-taber-content background-white">
                                         <div className="padding_eight_all bg-white">
                                             <div className="heading_s1">
-                                                <h1 className="mb-5">Login</h1>
+                                                <h1 className="mb-5">Create An account</h1>
                                                 <p className="mb-30">Don't have an account? <Link href="/page-register"><a>Create here</a></Link></p>
                                             </div>
                                             <form method="post">
@@ -28,12 +28,11 @@ function Login() {
                                                 <div className="form-group">
                                                     <input required="" type="password" name="password" placeholder="Your password *" />
                                                 </div>
-                                                <div className="login_footer form-group">
-                                                    <div className="chek-form">
-                                                        <input type="text" required="" name="email" placeholder="Security code *" />
-                                                    </div>
-                                                    
+                                                
+                                                <div className="form-group">
+                                                    <input required="" type="password" name="password" placeholder="Re-enter Your password *" />
                                                 </div>
+                                                
                                                 <div className="login_footer form-group mb-50">
                                                     <div className="chek-form">
                                                         <div className="custome-checkbox">
@@ -44,7 +43,7 @@ function Login() {
                                                     <a className="text-muted" href="#">Forgot password?</a>
                                                 </div>
                                                 <div className="form-group">
-                                                    <button type="submit" className="btn btn-heading btn-block hover-up" name="login">Log in</button>
+                                                    <button type="submit" className="btn btn-heading btn-block hover-up" name="login">Sign Up</button>
                                                 </div>
                                             </form>
                                         </div>

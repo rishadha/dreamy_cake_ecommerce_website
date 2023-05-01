@@ -1,4 +1,4 @@
-import BlogSidebar from "../components/elements/BlogSidebar";
+
 import Layout from "../components/layout/Layout";
 
 function Guide() {
@@ -14,15 +14,15 @@ function Guide() {
                                     <div className="single-page pr-30 mb-lg-0 mb-sm-5">
                                         <div className="single-header style-2">
                                             <h2>Purchase Guide</h2>
-                                            <div className="entry-meta meta-1 meta-3 font-xs mt-15 mb-15">
+                                            {/* <div className="entry-meta meta-1 meta-3 font-xs mt-15 mb-15">
                                                 <span className="post-by">By <a href="#">Jonh</a></span>
                                                 <span className="post-on has-dot">9 April 2020</span>
                                                 <span className="time-reading has-dot">8 mins read</span>
                                                 <span className="hit-count has-dot">29k Views</span>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <figure className="border-radius-15 mb-30">
-                                            <img className="border-radius-15" src="assets/imgs/page/guide-1.png" alt="" />
+                                            <img className="border-radius-15" src="assets/imgs/page/guide-3.jpg" alt="" />
                                         </figure>
                                         <div className="single-content mb-50">
                                             <h3>1. Account Registering</h3>
@@ -63,7 +63,7 @@ function Guide() {
                                     </div>
                                 </div>
                                 <div className="col-lg-3 primary-sidebar sticky-sidebar">
-                                    <BlogSidebar/>
+                                    
                                 </div>
                             </div>
                         </div>

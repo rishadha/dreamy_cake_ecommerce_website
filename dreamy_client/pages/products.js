@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import ShowSelect from "../components/ecommerce/Filter/ShowSelect";
 import SortSelect from "../components/ecommerce/Filter/SortSelect";
 import Breadcrumb2 from "../components/layout/Breadcrumb2";
-import CategoryProduct from "./../components/ecommerce/Filter/CategoryProduct";
+// import CategoryProduct from "./../components/ecommerce/Filter/CategoryProduct";
 import PriceRangeSlider from "./../components/ecommerce/Filter/PriceRangeSlider";
 import SizeFilter from "./../components/ecommerce/Filter/SizeFilter";
 import VendorFilter from "./../components/ecommerce/Filter/VendorFilter";
@@ -128,27 +128,27 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                     </nav>
                                 </div>
                             </div>
-                            <div className="col-lg-1-5 primary-sidebar sticky-sidebar">
-                                <div className="sidebar-widget widget-category-2 mb-30">
+                            {/* <div className="col-lg-1-5 primary-sidebar sticky-sidebar"> */}
+                                {/* <div className="sidebar-widget widget-category-2 mb-30">
                                     <h5 className="section-title style-1 mb-30">
                                         Category
                                     </h5>
                                     <CategoryProduct />
-                                </div>
+                                </div> */}
 
-                                <div className="sidebar-widget price_range range mb-30">
-                                <h5 className="section-title style-1 mb-30">Fill by price</h5>
+                                {/* <div className="sidebar-widget price_range range mb-30"> */}
+                                {/* <h5 className="section-title style-1 mb-30">Fill by price</h5> */}
 
-                                    <div className="price-filter">
+                                    {/* <div className="price-filter">
                                         <div className="price-filter-inner">
                                             <br />
                                             <PriceRangeSlider />
 
                                             <br />
                                         </div>
-                                    </div>
+                                    </div> */}
 
-                                    <div className="list-group">
+                                    {/* <div className="list-group">
                                         <div className="list-group-item mb-10 mt-10">
                                             <label className="fw-900">
                                                 Color
@@ -159,13 +159,13 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                             </label>
                                             <SizeFilter />
                                         </div>
-                                    </div>
-                                    <br />
-                                </div>
+                                    </div> */}
+                                    {/* <br /> */}
+                                {/* </div> */}
 
-                                <div className="sidebar-widget product-sidebar  mb-30 p-30 bg-grey border-radius-10">
-                                <h5 className="section-title style-1 mb-30">New products</h5>
-                                    <div className="single-post clearfix">
+                                {/* <div className="sidebar-widget product-sidebar  mb-30 p-30 bg-grey border-radius-10">
+                                <h5 className="section-title style-1 mb-30">New products</h5> */}
+                                    {/* <div className="single-post clearfix">
                                         <div className="image">
                                             <img
                                                 src="/assets/imgs/shop/thumbnail-3.jpg"
@@ -186,30 +186,30 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                 ></div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="single-post clearfix">
-                                        <div className="image">
+                                    </div> */}
+                                    {/* <div className="single-post clearfix"> */}
+                                        {/* <div className="image">
                                             <img
                                                 src="/assets/imgs/shop/thumbnail-4.jpg"
                                                 alt="#"
                                             />
-                                        </div>
-                                        <div className="content pt-10">
-                                            <h6>
+                                        </div> */}
+                                        {/* <div className="content pt-10">
+                                            {/* <h6>
                                                 <a>Chen Sweater</a>
                                             </h6>
                                             <p className="price mb-0 mt-5">
                                                 $89.50
-                                            </p>
-                                            <div className="product-rate">
+                                            </p> */}
+                                            {/* <div className="product-rate">
                                                 <div
                                                     className="product-rating"
                                                     style={{ width: "80%" }}
                                                 ></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="single-post clearfix">
+                                            </div> */}
+                                        {/* </div>  */}
+                                    {/* </div> */}
+                                    {/* <div className="single-post clearfix">
                                         <div className="image">
                                             <img
                                                 src="/assets/imgs/shop/thumbnail-5.jpg"
@@ -230,14 +230,14 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                 ></div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div className="banner-img wow fadeIn mb-lg-0 animated d-lg-block d-none">
+                                    </div> */}
+                                {/* </div> */}
+                                {/* <div className="banner-img wow fadeIn mb-lg-0 animated d-lg-block d-none">
                                     <img
                                         src="/assets/imgs/banner/banner-11.png"
                                         alt=""
                                     />
-                                    <div className="banner-text">
+                                     <div className="banner-text">
                                         <span>Oganic</span>
                                         <h4>
                                             Save 17% <br />
@@ -248,16 +248,16 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                             <br />
                                             Juice
                                         </h4>
-                                    </div>
-                                </div>
-                            </div>
+                                    </div> 
+                                </div> */}
+                            {/* </div> */}
                         </div>
                     </div>
                 </section>
                 {/* <WishlistModal /> */}
                 {/* <CompareModal /> */}
                 {/* <CartSidebar /> */}
-                <QuickView />
+                {/* <QuickView /> */}
                 {/* <div className="container">
                     <div className="row">
                         <div className="col-xl-6">
