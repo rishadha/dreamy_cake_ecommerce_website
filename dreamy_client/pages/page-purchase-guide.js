@@ -25,40 +25,70 @@ function Guide() {
                                             <img className="border-radius-15" src="assets/imgs/page/guide-3.jpg" alt="" />
                                         </figure>
                                         <div className="single-content mb-50">
+                                
                                             <h3>1. Account Registering</h3>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla modi dolores neque omnis ipsa? Quia, nam voluptas! Aut, magnam molestias:</p>
+                                            <p>When using a cake ordering system that includes course registration, for ordering process 
+                                                it's important to first create an account for ordering . 
+                                                Account registration is a simple process that requires the user 
+                                                to provide basic information such as their name, email address, and password.
+                                                 Once the account is created, the user can then access the cake ordering system 
+                                                 and browse through the available products, and purchase that:</p>
                                             <ul className="mb-30">
                                                 <li>Name (required)</li>
-                                                <li>Age (required)</li>
-                                                <li>Date of birth (required)</li>
-                                                <li>Passport/ ID no. (required)</li>
-                                                <li>Current career (required)</li>
-                                                <li>Mobile phone numbers (required)</li>
-                                                <li>Email address (required)</li>
-                                                <li>Hobbies &amp; interests (optional)</li>
-                                                <li>Social profiles (optional)</li>
+                                                <li>Email Address (required)</li>
+                                                <li>Password(required)</li>
                                             </ul>
-                                            <h3>2. Select Product</h3>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officia necessitatibus repellat placeat aut enim recusandae assumenda adipisci quisquam, deserunt iure veritatis cupiditate modi aspernatur accusantium, mollitia doloribus. Velit, iste.</p>
-                                            <h3>3. Confirm Order Content</h3>
-                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero ut autem sed! Assumenda, nostrum non doloribus tenetur, pariatur veritatis harum natus ipsam maiores dolorem repudiandae laboriosam, cupiditate odio earum eum?</p>
-                                            <h3>4.Transaction Completed</h3>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nesciunt nam aut magnam libero aspernatur eaque praesentium? Tempore labore quis neque? Magni.</p>
-                                            <h3>5. Accepted Credit Cards</h3>
+
+                                            <h3>2. Select Cake</h3>
+                                            <p>To choose the perfect cake, 
+                                                there are a few things to keep in mind. 
+                                                First, think about the occasion and what 
+                                                kind of cake would fit best. Consider the 
+                                                recipient's preferences and any dietary 
+                                                restrictions or allergies. Also, keep in mind 
+                                                the size of the cake and the number of guests you'll
+                                                 be serving. And don't forget about the design or theme
+                                                you have in mind. By considering all of these factors,
+                                                you'll be sure to find the perfect cake for your special
+                                                event!</p>
+                                            
+                                            <h3>3. Add to Cart</h3>
+                                            <p>To add items to your cart, 
+                                                you must be logged in to the cake 
+                                                ordering system. Browse products and 
+                                                click 'Add to Cart' for the items you 
+                                                want. Your cart will be saved as long 
+                                                as you stay logged in, so be sure to 
+                                                checkout before logging out.</p>
+                                            
+                                            <h3>4. Delivery Method</h3>
                                             <ul>
+                                                <li>
+                                                    Pickup
+                                                </li>
+                                                    <p> Pick up at Dreamy cake shop - 
+                                                        get your order from our location.</p>
+                                                
+                                                <li>
+                                                    Standard Delivery
+                                                </li>
+                                                <p>
+                                                Select date, add delivery info 
+                                                (name, address, postal code, district, phone number), 
+                                                update and submit."
+                                                </p>
+                                            </ul>
+                                            
+                                            <h3>5. Payment Method </h3>
+                                            <p>A. Credit Cards payment available</p>
+                                            <ul type="circle">
                                                 <li>Visa</li>
-                                                <li>Mastercards</li>
-                                                <li>American Express</li>
-                                                <li>Discover</li>
+                                                <li>Mastercard</li>
                                             </ul>
-                                            <span>*Taxes are calculated by your local bank and location.</span>
-                                            <h3 className="mt-30">6. Download and Setup</h3>
-                                            <ul>
-                                                <li>Updated content on a regular basis</li>
-                                                <li>Secure &amp; hassle-free payment</li>
-                                                <li>1-click checkout</li>
-                                                <li>Easy access &amp; smart user dashboard</li>
-                                            </ul>
+                                            <br/>
+                                            <p>B. Cash on delivery</p>
+                                            
+                                            
                                         </div>
                                     </div>
                                 </div>

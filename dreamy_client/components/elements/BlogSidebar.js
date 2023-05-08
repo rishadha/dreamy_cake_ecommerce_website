@@ -6,15 +6,15 @@ const BlogSidebar = () => {
     return (
         <>
             <div className="widget-area">
-                <div className="sidebar-widget-2 widget_search mb-50">
-                    <div className="search-form">
-                        <form action="#">
+                {/* <div className="sidebar-widget-2 widget_search mb-50"> */}
+                    {/* <div className="search-form"> */}
+                        {/* <form action="#">
                             <input type="text" placeholder="Search…" />
                             <button type="submit"><i className="fi-rs-search"></i></button>
-                        </form>
-                    </div>
-                </div>
-                <div className="sidebar-widget widget-category-2 mb-50">
+                        </form> */}
+                    {/* </div> */}
+                {/* </div> */}
+                {/* <div className="sidebar-widget widget-category-2 mb-50">
                     <h5 className="section-title style-1 mb-30">Category</h5>
                     <ul>
                         <li>
@@ -33,9 +33,9 @@ const BlogSidebar = () => {
                             <Link href="/products"><a> <img src="/assets/imgs/theme/icons/category-5.svg" alt="" />Fresh Fruit</a></Link><span className="count">87</span>
                         </li>
                     </ul>
-                </div>
+                </div> */}
 
-                <div className="sidebar-widget product-sidebar mb-50 p-30 bg-grey border-radius-10">
+                {/* <div className="sidebar-widget product-sidebar mb-50 p-30 bg-grey border-radius-10">
                     <h5 className="section-title style-1 mb-30">Trending Now</h5>
                     <div className="single-post clearfix">
                         <div className="image">
@@ -85,8 +85,8 @@ const BlogSidebar = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="sidebar-widget widget_instagram mb-50">
+                </div> */}
+                {/* <div className="sidebar-widget widget_instagram mb-50">
                     <h5 className="section-title style-1 mb-30">Gallery</h5>
                     <div className="instagram-gellay">
                         <ul className="insta-feed">
@@ -110,9 +110,9 @@ const BlogSidebar = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="sidebar-widget widget-tags mb-50 pb-10">
+                {/* <div className="sidebar-widget widget-tags mb-50 pb-10">
                     <h5 className="section-title style-1 mb-30">Popular Tags</h5>
                     <ul className="tags-list">
                         <li className="hover-up">
@@ -134,8 +134,8 @@ const BlogSidebar = () => {
                             <Link href="/blog-category-grid"><a><i className="fi-rs-cross mr-10"></i>Appetizer</a></Link>
                         </li>
                     </ul>
-                </div>
-                <div className="banner-img wow fadeIn mb-50 animated d-lg-block d-none">
+                </div> */}
+                {/* <div className="banner-img wow fadeIn mb-50 animated d-lg-block d-none">
                     <img src="/assets/imgs/banner/banner-11.png" alt="" />
                     <div className="banner-text">
                         <span>Oganic</span>
@@ -145,7 +145,7 @@ const BlogSidebar = () => {
                             Juice
                         </h4>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     );

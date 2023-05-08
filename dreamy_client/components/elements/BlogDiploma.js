@@ -13,7 +13,7 @@ const BlogSingle = () => {
                                 <Link href="#"><a>Course</a></Link>
                             </h6>
                             <h2 className="mb-10">
-                                Certificate Course
+                                Diploma Course
                             </h2>
                             <div className="single-header-meta">
                                 <div className="entry-meta meta-1 font-xs mt-15 mb-15">

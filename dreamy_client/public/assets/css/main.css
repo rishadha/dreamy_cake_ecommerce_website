@@ -11952,3 +11952,15 @@ footer .hotline img {
     line-height: 30px;
   }
 }
+.single-thumbnail {
+  display: flex;
+  justify-content: center;
+}
+
+.single-thumbnail img {
+  max-width: 100%;
+  height: auto;
+}
+.single-content {
+  text-align: justify;
+}

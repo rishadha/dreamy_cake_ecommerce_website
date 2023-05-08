@@ -152,7 +152,7 @@ const BlogGrid = ({ show, wide }) => {
                     key={i}
                 >
                     <div className="post-thumb">
-                        <Link href="/blog-post-right">
+                        <Link href="/BigDimploma">
                             <a>
                                 <img
                                     className="border-radius-15"

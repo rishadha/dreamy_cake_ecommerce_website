@@ -1,4 +1,4 @@
-import BlogSidebar from '../components/elements/BlogSidebar';
+// import BlogDiploma from '../components/elements/BlogDiploma';
 import BlogSingle from '../components/elements/BlogSingle';
 import Layout from "../components/layout/Layout";
 
@@ -12,9 +12,10 @@ function PageBlogSingle() {
                             <div className="col-lg-9 m-auto">
                                 <BlogSingle/>
                             </div>
-                            <div className="col-lg-3 primary-sidebar sticky-sidebar">
-                                <BlogSidebar/>
-                            </div>
+                            {/* <div className="col-lg-9 m-auto">
+                                <BlogDiploma/>
+                            </div> */}
+                        
                         </div>
                     </div>
                 </section>

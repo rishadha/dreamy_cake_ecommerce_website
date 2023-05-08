@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from 'next/router'
 import Link from "next/link"
-import Tags from "../ecommerce/Filter/Tags";
+// import Tags from "../ecommerce/Filter/Tags";
 
 const Breadcrumb2 = ({parent, sub, subChild, noBreadcrumb}) => {
     const router = useRouter()
@@ -20,9 +20,9 @@ const Breadcrumb2 = ({parent, sub, subChild, noBreadcrumb}) => {
                                 <span></span> Shop <span></span> {titlex}
                             </div>
                         </div>
-                        <div className="col-xl-9 text-end d-none d-xl-block">
+                        {/* <div className="col-xl-9 text-end d-none d-xl-block">
                             <Tags/>                            
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

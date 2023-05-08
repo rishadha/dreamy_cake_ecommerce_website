@@ -1,5 +1,5 @@
 import BlogGridBig from "../components/elements/BlogGridBig";
-import BlogSidebar from "../components/elements/BlogSidebar";
+
 import Layout from "../components/layout/Layout";
 import BlogFilter from './../components/elements/BlogFilter';
 
