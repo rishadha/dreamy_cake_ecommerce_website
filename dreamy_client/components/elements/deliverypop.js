@@ -214,29 +214,31 @@ function DeliveryForm() {
                     </button>
                   )}
 
-                  {deliveryOption === "standard" && (
-                    <div style={{ display: "flex", justifyContent: "space-between" }}>
-                      <button
-                        className="btn btn-fill-out submit font-weight-bold"
-                        style={{ marginRight: "10px" }}
-                        onClick={() => {
-                          setShowConfirmation(true);
-                          setShowDeliveryInfo(true);
-                        }}
-                      >
-                        Update Info
-                      </button>
-                      <button
-                        className="btn btn-fill-out submit font-weight-bold"
-                        onClick={() => {
-                          window.location.href =
-                            "/page-payment";
-                        }}
-                      >
-                        Continue
-                      </button>
-                    </div>
-                  )}
+{deliveryOption === "standard" && (
+  <div  className="full-width-button">
+    <button
+      className="btn btn-fill-out submit font-weight-bold"
+      style={{ marginRight: "10px" }}
+      onClick={() => {
+        setShowConfirmation(true);
+        setShowDeliveryInfo(true);
+        window.location.href = "/page-payment";
+      }}
+    >
+      Update Info
+    </button>
+    {/* <button
+      className="btn btn-fill-out submit font-weight-bold"
+      onClick={() => {
+        // Navigate to the payment page
+        window.location.href = "/page-payment";
+      }}
+    >
+      Continue
+    </button> */}
+  </div>
+)}
+
                 </form>
 
                 {showConfirmation && (
