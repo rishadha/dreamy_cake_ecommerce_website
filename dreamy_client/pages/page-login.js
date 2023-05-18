@@ -1,8 +1,46 @@
-import Link from "next/link";
+import React, { useState } from 'react';
+import axios from 'axios';
+import Link from 'next/link';
 import Layout from "../components/layout/Layout";
+import Modal from 'react-modal';
+import { useRouter } from 'next/router';
 
+Modal.setAppElement('#__next'); // this line is important for accessibility purposes
 
 function Login() {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [modalIsOpen, setIsOpen] = useState(false);
+    const [modalMessage, setModalMessage] = useState('');
+    const router = useRouter();
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        const user = { email, password };
+        try {
+            const response = await axios.post('http://localhost:4000/api/login', user);
+            if (response.data.success) {
+                // store token into localStorage
+                localStorage.setItem('token', response.data.token);
+                // Show success modal and redirect user to the homepage
+                setModalMessage('Login succeeded!');
+                setIsOpen(true);
+                setTimeout(() => {
+                    setIsOpen(false);
+                    router.push('/');
+                }, 2000);
+            } else {
+                // Handle login failure (e.g. show an error message)
+                setModalMessage('Login failed. Please check your email or password.');
+                setIsOpen(true);
+            }
+        } catch (error) {
+            console.error('An error occurred while logging in:', error);
+            // Handle error (e.g. show an error message)
+            setModalMessage('An error occurred. Please try again.');
+            setIsOpen(true);
+        }
+    };
     return (
         <>
             <Layout parent="Home" sub="Pages" subChild="Login & Register">
@@ -21,23 +59,12 @@ function Login() {
                                                 <h1 className="mb-5">Login</h1>
                                                 <p className="mb-30">Don't have an account? <Link href="/page-register"><a>Create here</a></Link></p>
                                             </div>
-                                            <form method="post">
+                                            <form method="post" onSubmit={handleSubmit}>
                                                 <div className="form-group">
-                                                    <input type="text" required="" name="email" placeholder="Username or Email *" />
+                                                    <input type="text" required="" name="email" placeholder="Username or Email *" value={email} onChange={e => setEmail(e.target.value)} />
                                                 </div>
                                                 <div className="form-group">
-                                                    <input required="" type="password" name="password" placeholder="Your password *" />
-                                                </div>
-                                                <div className="login_footer form-group">
-                                                    {/*<div className="chek-form">*/}
-                                                    {/*    <input type="text" required="" name="email" placeholder="Security code *" />*/}
-                                                    {/*</div>*/}
-                                                    {/*<span className="security-code">*/}
-                                                    {/*    <b className="text-new">8</b>*/}
-                                                    {/*    <b className="text-hot">6</b>*/}
-                                                    {/*    <b className="text-sale">7</b>*/}
-                                                    {/*    <b className="text-best">5</b>*/}
-                                                    {/*</span>*/}
+                                                    <input required="" type="password" name="password" placeholder="Your password *" value={password} onChange={e => setPassword(e.target.value)} />
                                                 </div>
                                                 <div className="login_footer form-group mb-50">
                                                     <div className="chek-form">
@@ -61,6 +88,23 @@ function Login() {
                 </div>
             </div>
             </Layout>
+
+            <Modal
+                isOpen={modalIsOpen}
+                onRequestClose={() => setIsOpen(false)}
+                style={{
+                    overlay: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.5)'
+                    },
+                    content: {
+                        color: 'lightsteelblue'
+                    }
+                }}
+                contentLabel="Example Modal"
+            >
+                <h2>{modalMessage}</h2>
+                <button onClick={() => setIsOpen(false)}>close</button>
+            </Modal>
         </>
     );
 }
