@@ -24,6 +24,10 @@ const productRoutes = require("./routes/ProductRoute");
 
 app.use("/api", productRoutes);
 
+const deliveryRoutes = require("./routes/DeliveryRoute");
+app.use("/api/deliveries", deliveryRoutes);
+
+
 app.use(require("./routes/record"));
 
 const CourseRegistrationRoute = require("./routes/CourseRegistrationRoute");

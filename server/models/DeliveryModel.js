@@ -1,32 +1,21 @@
 const mongoose = require("mongoose");
 
 const deliverySchema = new mongoose.Schema({
-  delivery: {
-    name: {
-      type: String,
-      // required: true,
-    },
-    address: {
-      type: String,
-      // required: true,
-    },
-    district: {
-      type: String,
-      // required: true,
-    },
-    address: {
-      type: String,
-      // required: true,
-    },
-    postalcode: {
-      type: Number,
-      // required: true,
-    },
-    phonenumber:{
-        type: Number,
-        
-    }
-}
+  name: {
+    type: String,
+  },
+  address: {
+    type: String,
+  },
+  district: {
+    type: String,
+  },
+  postalcode: {
+    type: Number,
+  },
+  phonenumber: {
+    type: Number,
+  }
 });
 
-module.exports = mongoose.model("delivery", courseSchema);
+module.exports = mongoose.model("Delivery", deliverySchema);

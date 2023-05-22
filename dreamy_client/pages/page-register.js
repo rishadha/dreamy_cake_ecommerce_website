@@ -2,9 +2,11 @@ import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import axios from 'axios';
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 
 function Login() {
   const [form, setForm] = useState({ name: '', email: '', password: '' });
+  const router = useRouter();
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -17,10 +19,11 @@ function Login() {
       const res = await axios.post('http://localhost:4000/api/registration', form);
       const { token } = res.data;
 
-      // Save the token to local storage or use it as needed
       localStorage.setItem('auth-token', token);
+
+      setForm({ name: '', email: '', password: '' });
+      router.push('/'); 
     } catch (error) {
-      // Handle the error (you might want to set an error state and display it)
       console.error(error);
     }
   };
@@ -45,13 +48,13 @@ function Login() {
                         </div>
                         <form method="post" onSubmit={handleSubmit}>
                           <div className="form-group">
-                            <input type="text" required name="name" onChange={handleChange} placeholder="Your name *" />
+                            <input type="text" required name="name" value={form.name} onChange={handleChange} placeholder="Your name *" />
                           </div>
                           <div className="form-group">
-                            <input type="text" required name="email" onChange={handleChange} placeholder="Username or Email *" />
+                            <input type="text" required name="email" value={form.email} onChange={handleChange} placeholder="Username or Email *" />
                           </div>
                           <div className="form-group">
-                            <input required type="password" name="password" onChange={handleChange} placeholder="Your password *" />
+                            <input required type="password" name="password" value={form.password} onChange={handleChange} placeholder="Your password *" />
                           </div>
                           <div className="login_footer form-group mb-50">
                             <div className="chek-form">
@@ -70,7 +73,7 @@ function Login() {
                     </div>
                   </div>
                 </div>
-                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -80,5 +83,3 @@ function Login() {
 }
 
 export default Login;
-
-
