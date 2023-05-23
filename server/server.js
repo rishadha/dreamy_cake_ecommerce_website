@@ -9,9 +9,15 @@ const cookieParser = require('cookie-parser');
 app.use(cookieParser());
 
 
+const corsOptions = {
+  origin: 'http://localhost:3000',
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
+
 require("dotenv").config({ path: "./config.env" });
 const port = process.env.PORT || 4000;
-app.use(cors());
 app.use(express.json());
 
 // Import user routes
